@@ -14,8 +14,8 @@
     <link rel="alternate" href="https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html" hreflang="id-ID" />
 	<link rel="shortcut icon" href="https://ik.imagekit.io/o4u0kylht/download%20(3).jpg?updatedAt=1728823762821">
     <!-- Website -->
-    <title>Kemenangan seorang pendekar yang menaklukan spaceman </title>
-    <meta name="description" content="Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain SPACEMAN  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan" />
+    <title>{{BRAND}} {{TITLE}} </title>
+    <meta name="description" content="{{DESC}}" />
     <meta name="keywords" content="  , situs gacor  robot ,situs online, game online, permainan" />
     <meta name="categories" content="website" />
     <meta name="language" content="id-ID" />
@@ -33,7 +33,7 @@
     <meta name="page google.com" content="https://www.google.com/search?q=SPACEMAN GACOR">
     <meta name="page google.co.id" content="https://www.google.co.id/search?q=SPACEMAN GACOR">
     <!-- Facebook -->
-    <meta property="og:title" content="Kemenangan seorang pendekar yang menaklukan spaceman " />
+    <meta property="og:title" content="{{BRAND}} {{TITLE}} " />
     <meta property="og:description" content="Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain SPACEMAN  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan" />
     <meta property="og:url" content="https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html" />
     <meta property="og:image" content="https://ik.imagekit.io/o4u0kylht/spacemanjg.png?updatedAt=1728824446567" />
@@ -43,7 +43,7 @@
     <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Kemenangan seorang pendekar yang menaklukan spaceman " />
+    <meta name="twitter:title" content="{{BRAND}} {{TITLE}} " />
     <meta name="twitter:description" content="Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain SPACEMAN  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan" />
     <meta name="twitter:url" content="$url" />
     <meta name="twitter:site" content="SPACEMAN" />
@@ -1407,7 +1407,7 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "SPACEMAN",
-        "alternateName": "Kemenangan seorang pendekar yang menaklukan spaceman ",
+        "alternateName": "{{BRAND}} {{TITLE}} ",
         "url": "https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html",
         "logo": "https://ik.imagekit.io/o4u0kylht/download%20(3).jpg?updatedAt=1728823762821"
       }
@@ -1437,7 +1437,7 @@
           "@type": "WebPage",
           "@id": "https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html"
         },
-        "headline": "Kemenangan seorang pendekar yang menaklukan spaceman ",
+        "headline": "{{BRAND}} {{TITLE}} ",
         "description": "Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain SPACEMAN  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan",
         "image": ["https://ik.imagekit.io/o4u0kylht/spacemanjg.png?updatedAt=1728824446567"],
         "author": {
@@ -1537,7 +1537,7 @@
       <article class='bg-container contain'>
         <div class='article'>
           <h1 class="text-center" itemprop="headline">
-    <strong style="color: red;">Kemenangan seorang pendekar yang menaklukan spaceman </strong>
+    <strong style="color: red;">{{BRAND}} {{TITLE}} </strong>
 </h1>
          <p><a href="https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html" style="color: red;">"SPACEMAN"</a> adalah game yang penuh dengan tantangan dan hanya dimiliki oleh orang orang tertentu , akan tetapi situs kami akan membuat kalian menjadi orang orang tertentu tersebut dengan kemampuan yang kalian miliki kalian juga dapat menjadi salah satu pendekar:</p>
 
