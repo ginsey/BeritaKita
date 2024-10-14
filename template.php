@@ -1370,52 +1370,52 @@
       }
 
       .btn-body .btn-items a {
-    animation: rainbow 3s linear infinite; /* Efek animasi pada tombol */
-    transition: all .4s ease-in-out; /* Efek transisi */
+    animation: rainbow 3s linear infinite; 
+    transition: all .4s ease-in-out; 
     text-decoration: none;
-    color: #fff; /* Warna teks putih default */
+    color: #fff; 
     width: 100%; 
-    padding: 15px 0px; /* Padding yang lebih besar untuk memperbesar tombol */
-    background: -webkit-linear-gradient(top, #27374c, #27374c 100%); /* Gradien background */
+    padding: 15px 0px; 
+    background: -webkit-linear-gradient(top, #27374c, #27374c 100%); 
     border-radius: 15px; 
     display: inline-block; 
     text-align: center;
     position: relative;
-    border: 5px solid; /* Lebar border */
+    border: 5px solid; 
     overflow: hidden; 
     background-clip: border-box;
-    font-size: 20px; /* Ukuran font yang lebih besar untuk teks */
-    font-weight: bold; /* Teks tebal */
-    letter-spacing: 2px; /* Spasi antar huruf */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Efek bayangan pada teks */
+    font-size: 20px; 
+    font-weight: bold; 
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
     background-clip: padding-box;
 }
 
 .btn-body .btn-items a:hover {
     background: linear-gradient(45deg, #ff6a00, #ff0000, #00ff00, #0000ff);
-    border-color: transparent; /* Menghilangkan border saat hover */
-    color: #fff; /* Warna teks berubah jadi putih saat hover */
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Efek glow pada tombol */
-    transform: scale(1.05); /* Sedikit memperbesar tombol saat hover */
+    border-color: transparent; 
+    color: #fff; 
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); 
+    transform: scale(1.05); 
 }
 
-/* Untuk memberikan efek gradien pada teks */
+
 .btn-body .btn-items a::before {
-    content: attr(data-text); /* Menggunakan atribut untuk teks */
+    content: attr(data-text); 
     background: linear-gradient(45deg, #ff6a00, #ff0000, #00ff00, #0000ff);
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent; /* Membuat warna teks asli transparan */
+    color: transparent; 
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: -1;
-    opacity: 0.5; /* Efek transparansi */
+    opacity: 0.5; 
 }
 
-/* Animasi rainbow untuk membuat efek warna pelangi */
+
 @keyframes rainbow {
     0% { border-color: #ff0000; }
     25% { border-color: #00ff00; }
