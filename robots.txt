@@ -1,0 +1,3 @@
+User-agent:*
+Allow:/
+Sitemap: https://ginsey.github.io/BeritaKita/pecahpalak.xml
