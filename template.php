@@ -10,50 +10,50 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="canonical" href="https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html" />
-    <link rel="alternate" href="https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html" hreflang="id-ID" />
+    <link rel="canonical" href="ginsey.github.io/BeritaKita/{{BRAND}}.html" />
+    <link rel="alternate" href="ginsey.github.io/BeritaKita/{{BRAND}}.html" hreflang="id-ID" />
 	<link rel="shortcut icon" href="https://ik.imagekit.io/o4u0kylht/download%20(3).jpg?updatedAt=1728823762821">
     <!-- Website -->
-    <title>{{BRAND}} {{TITLE}} </title>
+    <title>{{TITLE}} </title>
     <meta name="description" content="{{DESC}}" />
     <meta name="keywords" content="  , situs gacor  robot ,situs online, game online, permainan" />
     <meta name="categories" content="website" />
     <meta name="language" content="id-ID" />
     <meta name="rating" content="general" />
-    <meta name="copyright" content="SPACEMAN" />
-    <meta name="author" content="SPACEMAN" />
-    <meta name="publisher" content="SPACEMAN" />
+    <meta name="copyright" content="{{BRAND}}" />
+    <meta name="author" content="{{BRAND}}" />
+    <meta name="publisher" content="{{BRAND}}" />
     <meta name="distribution" content="global" />
     <meta name="geo.placename" content="Indonesia" />
     <meta name="geo.country" content="ID" />
     <meta name="geo.region" content="ID" />
     <meta name="tgn.nation" content="Indonesia" />
-    <meta name="page google.com" content="https://www.google.com/search?q=SPACEMAN">
-    <meta name="page google.co.id" content="https://www.google.co.id/search?q=SPACEMAN">
-    <meta name="page google.com" content="https://www.google.com/search?q=SPACEMAN GACOR">
-    <meta name="page google.co.id" content="https://www.google.co.id/search?q=SPACEMAN GACOR">
+    <meta name="page google.com" content="https://www.google.com/search?q={{BRAND}}">
+    <meta name="page google.co.id" content="https://www.google.co.id/search?q={{BRAND}}">
+    <meta name="page google.com" content="https://www.google.com/search?q={{BRAND}} GACOR">
+    <meta name="page google.co.id" content="https://www.google.co.id/search?q={{BRAND}} GACOR">
     <!-- Facebook -->
     <meta property="og:title" content="{{BRAND}} {{TITLE}} " />
-    <meta property="og:description" content="Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain SPACEMAN  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan" />
-    <meta property="og:url" content="https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html" />
-    <meta property="og:image" content="https://ik.imagekit.io/o4u0kylht/spacemanjg.png?updatedAt=1728824446567" />
+    <meta property="og:description" content="Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain {{BRAND}}  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan" />
+    <meta property="og:url" content="ginsey.github.io/BeritaKita/{{BRAND}}.html" />
+    <meta property="og:image" content="https://ik.imagekit.io/o4u0kylht/{{BRAND}}jg.png?updatedAt=1728824446567" />
     <meta property="og:image:type" content="image/jpg" />
-    <meta property="og:site_name" content="SPACEMAN" />
+    <meta property="og:site_name" content="{{BRAND}}" />
     <meta property="og:locale" content="id_ID" />
     <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="{{BRAND}} {{TITLE}} " />
-    <meta name="twitter:description" content="Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain SPACEMAN  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan" />
+    <meta name="twitter:description" content="Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain {{BRAND}}  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan" />
     <meta name="twitter:url" content="$url" />
-    <meta name="twitter:site" content="SPACEMAN" />
-    <meta name="twitter:creator" content="SPACEMAN" />
+    <meta name="twitter:site" content="{{BRAND}}" />
+    <meta name="twitter:creator" content="{{BRAND}}" />
     <meta name="twitter:label1" content="Estimasi waktu membaca" />
     <meta name="twitter:data1" content="5 menit" />
     <!-- Preload -->
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js" />
     <link rel="preload" href="https://ik.imagekit.io/o4u0kylht/download%20(3).jpg?updatedAt=1728823762821" as="image" />
-    <link rel="preload" href="https://ik.imagekit.io/o4u0kylht/spacemanjg.png?updatedAt=1728824446567" as="image" />
+    <link rel="preload" href="https://ik.imagekit.io/o4u0kylht/{{BRAND}}jg.png?updatedAt=1728824446567" as="image" />
     <!-- Script -->
     <script async src='https://cdn.ampproject.org/v0.js'></script>
     <style amp-boilerplate>
@@ -1406,9 +1406,9 @@
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "SPACEMAN",
+        "name": "{{BRAND}}",
         "alternateName": "{{BRAND}} {{TITLE}} ",
-        "url": "https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html",
+        "url": "ginsey.github.io/BeritaKita/{{BRAND}}.html",
         "logo": "https://ik.imagekit.io/o4u0kylht/download%20(3).jpg?updatedAt=1728823762821"
       }
     </script>
@@ -1420,12 +1420,12 @@
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html"
+          "item": "ginsey.github.io/BeritaKita/{{BRAND}}.html"
         }, {
           "@type": "ListItem",
           "position": 2,
-          "name": "SPACEMAN",
-          "item": "https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html"
+          "name": "{{BRAND}}",
+          "item": "ginsey.github.io/BeritaKita/{{BRAND}}.html"
         }]
       }
     </script>
@@ -1435,19 +1435,19 @@
         "@type": "NewsArticle",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html"
+          "@id": "ginsey.github.io/BeritaKita/{{BRAND}}.html"
         },
         "headline": "{{BRAND}} {{TITLE}} ",
-        "description": "Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain SPACEMAN  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan",
-        "image": ["https://ik.imagekit.io/o4u0kylht/spacemanjg.png?updatedAt=1728824446567"],
+        "description": "Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain {{BRAND}}  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan",
+        "image": ["https://ik.imagekit.io/o4u0kylht/{{BRAND}}jg.png?updatedAt=1728824446567"],
         "author": {
           "@type": "Organization",
-          "name": "SPACEMAN",
-          "url": "https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html"
+          "name": "{{BRAND}}",
+          "url": "ginsey.github.io/BeritaKita/{{BRAND}}.html"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "SPACEMAN",
+          "name": "{{BRAND}}",
           "logo": {
             "@type": "ImageObject",
             "url": "https://ik.imagekit.io/o4u0kylht/download%20(3).jpg?updatedAt=1728823762821"
@@ -1462,7 +1462,7 @@
     <div class='nav'>
       <div class='logo'>
         <div class='logo-inner'>
-          <amp-img src='https://ik.imagekit.io/o4u0kylht/spaceman.jpeg?updatedAt=1728825844118' width='160' height='40' layout='intrinsic'></amp-img>
+          <amp-img src='https://ik.imagekit.io/o4u0kylht/{{BRAND}}.jpeg?updatedAt=1728825844118' width='160' height='40' layout='intrinsic'></amp-img>
         </div>
       </div>
       <div class='button-wrapper'>
@@ -1480,7 +1480,7 @@
 </div>
 
           </div>
-          <amp-img src='https://ik.imagekit.io/o4u0kylht/spacemanjg.png?updatedAt=1728824446567' width='1280' height='720' layout='responsive' alt='SPACEMAN'></amp-img>
+          <amp-img src='https://ik.imagekit.io/o4u0kylht/{{BRAND}}jg.png?updatedAt=1728824446567' width='1280' height='720' layout='responsive' alt='{{BRAND}}'></amp-img>
         </div>
       </div>
     </header>
@@ -1488,12 +1488,12 @@
       <div class="btn-body">
         <div class="btn-items">
           <a href="https://t.ly/akunjp2024" rel="nofollow noreferrer" target="_blank">
-            <amp-img src="https://ik.imagekit.io/o4u0kylht/spaceman2.png?updatedAt=1728825974796" width="150" height="50" alt="Login zorro4d" layout="fixed"></amp-img>
+            <amp-img src="https://ik.imagekit.io/o4u0kylht/{{BRAND}}2.png?updatedAt=1728825974796" width="150" height="50" alt="Login zorro4d" layout="fixed"></amp-img>
           </a>
         </div>
         <div class="btn-items">
           <a href="https://t.ly/akunjp2024" rel="nofollow noreferrer" target="_blank">
-            <amp-img src="https://ik.imagekit.io/o4u0kylht/spaceman2.png?updatedAt=1728825974796" width="150" height="50" alt="Login zorro4d" layout="fixed"></amp-img>
+            <amp-img src="https://ik.imagekit.io/o4u0kylht/{{BRAND}}2.png?updatedAt=1728825974796" width="150" height="50" alt="Login zorro4d" layout="fixed"></amp-img>
           </a>
         </div>
       </div>
@@ -1507,12 +1507,12 @@
         </thead>
         <tbody>
           <tr>
-            <td>ALTERNATIF LOGIN SPACEMAN</td>
-            <td>🚀 <a href="https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html">SPACEMAN</a></td>
+            <td>ALTERNATIF LOGIN {{BRAND}}</td>
+            <td>🚀 <a href="ginsey.github.io/BeritaKita/{{BRAND}}.html">{{BRAND}}</a></td>
           </tr>
           <tr>
             <td>Nama Situs</td>
-            <td>🌟 SPACEMAN MAXXWIN 🌟</td>
+            <td>🌟 {{BRAND}} MAXXWIN 🌟</td>
           </tr>
           <tr>
             <td>Deposit</td>
@@ -1539,7 +1539,7 @@
           <h1 class="text-center" itemprop="headline">
     <strong style="color: red;">{{BRAND}} {{TITLE}} </strong>
 </h1>
-         <p><a href="https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html" style="color: red;">"SPACEMAN"</a> adalah game yang penuh dengan tantangan dan hanya dimiliki oleh orang orang tertentu , akan tetapi situs kami akan membuat kalian menjadi orang orang tertentu tersebut dengan kemampuan yang kalian miliki kalian juga dapat menjadi salah satu pendekar:</p>
+         <p><a href="ginsey.github.io/BeritaKita/{{BRAND}}.html" style="color: red;">"{{BRAND}}"</a> adalah game yang penuh dengan tantangan dan hanya dimiliki oleh orang orang tertentu , akan tetapi situs kami akan membuat kalian menjadi orang orang tertentu tersebut dengan kemampuan yang kalian miliki kalian juga dapat menjadi salah satu pendekar:</p>
 
     <h2 style="color: red;">Strategi Dasar Permainan</h2>
     <p>jangan bermain dengan resiko yang artinya kalian bermain hanya mengandalkan insting semata tapi pahamilah dasar dasar agar kalian mengerti cara bermain dengan baik dan benar, akan saya jelaskan dibawah ini:</p>
@@ -1550,10 +1550,10 @@
     </ul>
 
     <h2 style="color: red;">Bermain dengan Strategi Lanjutan</h2>
-    <p>Strategi lanjutan dalam bermain SPACEMAN dapat menjadi senjata rahasia anda untuk mengurangi risiko kekalahan. Cobalah untuk bermain dengan pendekatan yang lebih teliti dan ceroboh. Berikut adalah beberapa langkah yang bisa Anda ikuti:</p>
+    <p>Strategi lanjutan dalam bermain {{BRAND}} dapat menjadi senjata rahasia anda untuk mengurangi risiko kekalahan. Cobalah untuk bermain dengan pendekatan yang lebih teliti dan ceroboh. Berikut adalah beberapa langkah yang bisa Anda ikuti:</p>
     <ul>
         <li><strong>Mulai dengan Taruhan Kecil:</strong> Bermain dengan jumlaj kecil dapat menentukan anda ingin bermain lanjut atau tidak dengan pertaruhan kecil anda dapat menentukan sistem dalam sebuah permainan dengan anda memahami sebuah permainan anda akan lebih mudah mendapatkan kemengangan yang gampang.</li>
-        <li><strong>Tingkatkan Taruhan Secara Bertahap:</strong> Jika anda sudah terbiasa dengan pola permainan dan mendapatkan kemenangan coba naikan taruhan anda dengan begitu anda akan meraup keuntungan yang fantastis akan tetapi apabila kalian kalah coba pelajari lagi pelan pelan sampai anda terbiasa dengan mekanisme dan sistem fitur yang di miliki oleh permainan spaceman ini</li>
+        <li><strong>Tingkatkan Taruhan Secara Bertahap:</strong> Jika anda sudah terbiasa dengan pola permainan dan mendapatkan kemenangan coba naikan taruhan anda dengan begitu anda akan meraup keuntungan yang fantastis akan tetapi apabila kalian kalah coba pelajari lagi pelan pelan sampai anda terbiasa dengan mekanisme dan sistem fitur yang di miliki oleh permainan {{BRAND}} ini</li>
         <li><strong>Tetapkan Target Kemenangan:</strong> Sebagai pejuang dan pertarung terdapat visi dan misi yang harus ditetapkan dengan contohnya apabila anda sudah memenangkan dan mencapai target profit harian anda segeralaj neremti dengan begitu anda akan mendapatkan keuntungan tiap harinya , lakukan hal tersebut berulang rulang tiap hari seperti yang dijelaskan bahasa kerennya adalah manajemen resiko.</li>
     </ul>
 
@@ -1562,7 +1562,7 @@
     </section>
     <section class='n-container m-b-normal'>
       <div class='container' style='text-align: center;'>
-        <span>&copy; 2024 <a href="https://greedisgoodd.github.io/flyNews/pendekar-spaceman.html" style="color: red;">KEMAMPUAN YANG DIINGINKAN SEMUA ORANG</a>. All Rights Reserved. </span>
+        <span>&copy; 2024 <a href="ginsey.github.io/BeritaKita/{{BRAND}}.html" style="color: red;">KEMAMPUAN YANG DIINGINKAN SEMUA ORANG</a>. All Rights Reserved. </span>
       </div>
     </section>
   </body>
