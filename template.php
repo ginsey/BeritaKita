@@ -16,7 +16,7 @@
     <!-- Website -->
     <title>{{TITLE}} </title>
     <meta name="description" content="{{DESC}}" />
-    <meta name="keywords" content="  , situs gacor  robot ,situs online, game online, permainan" />
+    <meta name="keywords" content="{{BRAND}}, permainan online" />
     <meta name="categories" content="website" />
     <meta name="language" content="id-ID" />
     <meta name="rating" content="general" />
@@ -34,17 +34,17 @@
     <meta name="page google.co.id" content="https://www.google.co.id/search?q={{BRAND}} GACOR">
     <!-- Facebook -->
     <meta property="og:title" content="{{BRAND}} {{TITLE}} " />
-    <meta property="og:description" content="Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain {{BRAND}}  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan" />
+    <meta property="og:description" content="{{DESC}}" />
     <meta property="og:url" content="ginsey.github.io/BeritaKita/{{BRAND}}.html" />
-    <meta property="og:image" content="https://ik.imagekit.io/o4u0kylht/{{BRAND}}jg.png?updatedAt=1728824446567" />
+    <meta property="og:image" content="https://ik.imagekit.io/o4u0kylht/asdas23.jpeg?updatedAt=1728896610475" />
     <meta property="og:image:type" content="image/jpg" />
     <meta property="og:site_name" content="{{BRAND}}" />
     <meta property="og:locale" content="id_ID" />
     <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{{BRAND}} {{TITLE}} " />
-    <meta name="twitter:description" content="Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain {{BRAND}}  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan" />
+    <meta name="twitter:title" content="{{TITLE}} " />
+    <meta name="twitter:description" content="{{DESC}}" />
     <meta name="twitter:url" content="$url" />
     <meta name="twitter:site" content="{{BRAND}}" />
     <meta name="twitter:creator" content="{{BRAND}}" />
@@ -53,7 +53,7 @@
     <!-- Preload -->
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js" />
     <link rel="preload" href="https://ik.imagekit.io/o4u0kylht/download%20(3).jpg?updatedAt=1728823762821" as="image" />
-    <link rel="preload" href="https://ik.imagekit.io/o4u0kylht/{{BRAND}}jg.png?updatedAt=1728824446567" as="image" />
+    <link rel="preload" href="https://ik.imagekit.io/o4u0kylht/asdas23.jpeg?updatedAt=1728896610475" as="image" />
     <!-- Script -->
     <script async src='https://cdn.ampproject.org/v0.js'></script>
     <style amp-boilerplate>
@@ -1370,36 +1370,61 @@
       }
 
       .btn-body .btn-items a {
-    animation: rainbow 3s linear infinite;
-    transition: all .4s;
-    color: #fff;
+    animation: rainbow 3s linear infinite; /* Efek animasi pada tombol */
+    transition: all .4s ease-in-out; /* Efek transisi */
     text-decoration: none;
-    width: 100%;
-    padding: 10px 0px;
-    color: #000000;
-    background: -webkit-linear-gradient(top, #27374c, #27374c 100%);
-    border-radius: 15px;
-    display: inline-block;
+    color: #fff; /* Warna teks putih default */
+    width: 100%; 
+    padding: 15px 0px; /* Padding yang lebih besar untuk memperbesar tombol */
+    background: -webkit-linear-gradient(top, #27374c, #27374c 100%); /* Gradien background */
+    border-radius: 15px; 
+    display: inline-block; 
     text-align: center;
-    overflow: hidden;
     position: relative;
-    border: 5px solid;
+    border: 5px solid; /* Lebar border */
+    overflow: hidden; 
     background-clip: border-box;
+    font-size: 20px; /* Ukuran font yang lebih besar untuk teks */
+    font-weight: bold; /* Teks tebal */
+    letter-spacing: 2px; /* Spasi antar huruf */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Efek bayangan pada teks */
+    background-clip: padding-box;
 }
 
+.btn-body .btn-items a:hover {
+    background: linear-gradient(45deg, #ff6a00, #ff0000, #00ff00, #0000ff);
+    border-color: transparent; /* Menghilangkan border saat hover */
+    color: #fff; /* Warna teks berubah jadi putih saat hover */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Efek glow pada tombol */
+    transform: scale(1.05); /* Sedikit memperbesar tombol saat hover */
+}
+
+/* Untuk memberikan efek gradien pada teks */
+.btn-body .btn-items a::before {
+    content: attr(data-text); /* Menggunakan atribut untuk teks */
+    background: linear-gradient(45deg, #ff6a00, #ff0000, #00ff00, #0000ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; /* Membuat warna teks asli transparan */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5; /* Efek transparansi */
+}
+
+/* Animasi rainbow untuk membuat efek warna pelangi */
 @keyframes rainbow {
-    0% {
-        border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
-    }
-    50% {
-        border-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet) 1;
-    }
-    100% {
-        border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
-    }
+    0% { border-color: #ff0000; }
+    25% { border-color: #00ff00; }
+    50% { border-color: #0000ff; }
+    75% { border-color: #ff00ff; }
+    100% { border-color: #ff0000; }
 }
 
-        }
+        
     </style>
     <link href='https://fonts.googleapis.com/css2?family=Prompt' rel='stylesheet'>
     <script type="application/ld+json">
@@ -1407,7 +1432,7 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "{{BRAND}}",
-        "alternateName": "{{BRAND}} {{TITLE}} ",
+        "alternateName": "{{TITLE}} ",
         "url": "ginsey.github.io/BeritaKita/{{BRAND}}.html",
         "logo": "https://ik.imagekit.io/o4u0kylht/download%20(3).jpg?updatedAt=1728823762821"
       }
@@ -1437,9 +1462,9 @@
           "@type": "WebPage",
           "@id": "ginsey.github.io/BeritaKita/{{BRAND}}.html"
         },
-        "headline": "{{BRAND}} {{TITLE}} ",
-        "description": "Beginilah kisah seorang pendekar yang meraup keuntungan dari bermain {{BRAND}}  !  disitus ini selalu memberikan kemenangan yang tinggi bagi para penantang tanggung yang tak kenal menyerah. Hanya disitus kami kemenangan yang terjamin tinggi dan dapat dipastikan",
-        "image": ["https://ik.imagekit.io/o4u0kylht/{{BRAND}}jg.png?updatedAt=1728824446567"],
+        "headline": "{{BRAND}}",
+        "description": "{{DESC}}",
+        "image": ["https://ik.imagekit.io/o4u0kylht/asdas23.jpeg?updatedAt=1728896610475"],
         "author": {
           "@type": "Organization",
           "name": "{{BRAND}}",
@@ -1462,7 +1487,7 @@
     <div class='nav'>
       <div class='logo'>
         <div class='logo-inner'>
-          <amp-img src='https://ik.imagekit.io/o4u0kylht/{{BRAND}}.jpeg?updatedAt=1728825844118' width='160' height='40' layout='intrinsic'></amp-img>
+          <amp-img src='https://ik.imagekit.io/Jaya/blackseo/Black%20SEO%20Logo.png?updatedAt=1724341718272' width='160' height='40' layout='intrinsic'></amp-img>
         </div>
       </div>
       <div class='button-wrapper'>
@@ -1476,11 +1501,11 @@
         <div>
           <div class="marquee-text" style="background-color: var(--primary); color: #000; padding: 5px 0; border: 1px solid #ffffff; border-radius: 5px;margin-bottom: 5px;">
             <div style="color: yellow;">
-    💰~Main cuma 10.000 bisa menang hingga maxwin Dapatkan keberuntunganmu~💰
+    💰~Main cuma 10.000 {{TITLE}}~💰
 </div>
 
           </div>
-          <amp-img src='https://ik.imagekit.io/o4u0kylht/{{BRAND}}jg.png?updatedAt=1728824446567' width='1280' height='720' layout='responsive' alt='{{BRAND}}'></amp-img>
+          <amp-img src='https://ik.imagekit.io/o4u0kylht/asdas23.jpeg?updatedAt=1728896610475' width='1280' height='720' layout='responsive' alt='{{BRAND}}'></amp-img>
         </div>
       </div>
     </header>
@@ -1488,12 +1513,12 @@
       <div class="btn-body">
         <div class="btn-items">
           <a href="https://t.ly/akunjp2024" rel="nofollow noreferrer" target="_blank">
-            <amp-img src="https://ik.imagekit.io/o4u0kylht/{{BRAND}}2.png?updatedAt=1728825974796" width="150" height="50" alt="Login zorro4d" layout="fixed"></amp-img>
+            <div class="btn-text">DAFTAR</div>
           </a>
         </div>
         <div class="btn-items">
           <a href="https://t.ly/akunjp2024" rel="nofollow noreferrer" target="_blank">
-            <amp-img src="https://ik.imagekit.io/o4u0kylht/{{BRAND}}2.png?updatedAt=1728825974796" width="150" height="50" alt="Login zorro4d" layout="fixed"></amp-img>
+            <div class="btn-text"> LOGIN </div>
           </a>
         </div>
       </div>
